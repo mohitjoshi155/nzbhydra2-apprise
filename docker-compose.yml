@@ -20,9 +20,9 @@ services:
 
     volumes:
 
-      - <path to data>:/config
+      - /config:/config
 
-      - <nzb download>:/downloads
+      - /downloads:/downloads
 
     ports:
 
