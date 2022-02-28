@@ -20,9 +20,9 @@ services:
 
     volumes:
       
-      - :/config
+      - /config
 
-      - :/downloads
+      - /downloads
 
     ports:
 
