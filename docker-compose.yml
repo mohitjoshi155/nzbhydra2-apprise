@@ -19,7 +19,8 @@ services:
       - TZ=Europe/London
 
     volumes:
-      - name: storage persistentVolumeClaim: 
+      - name: storage
+       persistentVolumeClaim: 
           claimName: minio-storage
           readOnly: false
 
