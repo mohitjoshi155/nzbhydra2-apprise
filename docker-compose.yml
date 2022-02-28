@@ -20,8 +20,8 @@ services:
 
     volumes:
       - name: storage persistentVolumeClaim: 
-        claimName: minio-storage
-        readOnly: false
+          claimName: minio-storage
+          readOnly: false
 
       - /config:/config
 
