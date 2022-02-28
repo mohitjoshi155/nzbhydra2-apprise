@@ -19,6 +19,9 @@ services:
       - TZ=Europe/London
 
     volumes:
+      - name: storage persistentVolumeClaim: 
+        claimName: minio-storage
+        readOnly: false
 
       - /config:/config
 
