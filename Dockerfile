@@ -17,6 +17,7 @@ RUN \
   apk add -U --no-cache \
     curl \
     jq \
+    pip3 \
     openjdk11-jre-headless \
     python3 && \
   echo "**** install nzbhydra2 ****" && \
@@ -42,6 +43,8 @@ RUN \
     build-dependencies && \
   rm -rf \
     /tmp/*
+    
+RUN pip3 install apprise==0.9.7 
 
 # copy local files
 COPY root/ /
