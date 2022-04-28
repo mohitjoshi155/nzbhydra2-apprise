@@ -17,7 +17,7 @@ RUN \
   apk add -U --no-cache \
     curl \
     jq \
-    pip3 \
+    py3-pip \
     openjdk11-jre-headless \
     python3 && \
   echo "**** install nzbhydra2 ****" && \
