@@ -12,5 +12,5 @@ services:
       - /config
       - /downloads
     ports:
-      - 5076:5076
+      - 5078:5076
     restart: unless-stopped
