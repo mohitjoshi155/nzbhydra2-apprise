@@ -3,7 +3,7 @@ version: "2.1"
 services:
   nzbhydra2:
     build : .
-    container_name: nzbhydra2
+    container_name: nzbhydraapprise
     environment:
       - PUID=1000
       - PGID=1000
